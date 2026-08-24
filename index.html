@@ -55,6 +55,7 @@
             <li class="masthead__menu-item"><a href="#-news">News</a></li>
             <li class="masthead__menu-item"><a href="#-projects">Projects</a></li>
             <li class="masthead__menu-item"><a href="#-internship">Internship</a></li>
+            <li class="masthead__menu-item"><a href="#-skills">Skills</a></li>
             <li class="masthead__menu-item"><a href="#-awards">Awards</a></li>
           </ul>
           <ul class="hidden-links hidden"></ul>
@@ -104,7 +105,7 @@
           <p><span class="anchor" id="about-me"></span></p>
 
           <!-- ===== About Me ===== -->
-          <p>I am currently a junior undergraduate student in the
+          <p>I am currently an undergraduate student in the
           <a href="http://dase.ecnu.edu.cn/" target="_blank">School of Data Science and Engineering (DaSE)</a> at
           <a href="http://ecnu.edu.cn/" target="_blank">East China Normal University (ECNU)</a>,
           majoring in Data Science and Big Data Technology (2023–2027).</p>
@@ -115,15 +116,15 @@
           <a href="https://lixiang3776.github.io/" target="_blank">Prof. Xiang Li</a>, where I explore agent-based reasoning
           and skill orchestration for complex problem solving.</p>
 
-          <p>I am currently interning at <strong>ByteDance</strong> (China Transaction & Advertising), contributing to an
-          AIGC advertising-efficiency platform, Douyin HarmonyOS client-side ad monetization, and agent technologies for
-          advertising scenarios. Previously, I built
+          <p>I am currently working at <strong>ByteDance</strong> (China Transaction & Advertising · Traffic Monetization Engineering) as an
+          <strong>AI Full-Stack Engineer</strong>, working on AIGC platform engineering, client-side resource scheduling,
+          and agent-based prompt optimization. Previously, I built
           <strong>LiveCompose</strong> — an RL-powered on-device photography composition assistant published on the App Store.</p>
 
           <!-- ===== News ===== -->
           <h1 id="-news">🔥 News</h1>
           <ul>
-            <li><em>2026.07</em>: 🚀 Started as a Monetization Engineering Intern at ByteDance, contributing to AIGC platform, HarmonyOS client development, and Agent systems.</li>
+            <li><em>2026.07</em>: 🚀 Started as an AI Full-Stack Engineer at ByteDance Traffic Monetization Engineering, working on AIGC platform engineering, client-side resource scheduling, and Agent development.</li>
             <li><em>2026.06</em>: 🎉 AIAdStream project recognized as an Outstanding Project at ByteDance Engineering Training Camp.</li>
             <li><em>2026.06</em>: 📱 LiveCompose (构妙) iOS app officially launched on the App Store!</li>
 
@@ -136,12 +137,12 @@
           <h1 id="-internship">💼 Internship</h1>
           <ul>
             <li>
-              <strong>ByteDance</strong> — China Transaction & Advertising · Monetization Engineering Intern<br>
-              2026.07 – Present | Shanghai, China
+              <strong>ByteDance</strong> — China Transaction & Advertising · Traffic Monetization Engineering<br>
+              <strong>AI Full-Stack Engineer</strong> | 2026.07 – Present | Shanghai, China
               <ul>
-                <li><strong>AIGC Platform Development:</strong> Core contributor to an internal advertising-efficiency platform, improving ad delivery quality and revenue.</li>
-                <li><strong>Douyin HarmonyOS Client Development:</strong> Developing ad monetization features for Douyin on HarmonyOS, including ad display, interaction, and performance optimization.</li>
-                <li><strong>Agent R&amp;D:</strong> Exploring Agent applications in advertising scenarios and contributing to the design and engineering implementation of intelligent agent systems.</li>
+                <li><strong>AIGC Platform Engineering:</strong> Delivered full-stack improvements across platform configuration, access control, collaboration, and analytics, and built an automated AI search result-collection workflow; long-form capture completed within 30 seconds, while six core metric groups supported continuous quality tracking.</li>
+                <li><strong>Client Resource Scheduling Architecture:</strong> Built a unified scheduling layer for five categories of content preloading tasks, using loading latency, hit rate, and runtime stability as core metrics to reduce resource contention and performance fluctuations; online experiments delivered substantial gains.</li>
+                <li><strong>Agent Development:</strong> Developed an agent-based reverse prompt optimization workflow that distills high-quality examples into reusable domain skills and introduces generation, evaluation, and iterative refinement, reducing repeated manual prompt tuning.</li>
               </ul>
             </li>
           </ul>
@@ -161,8 +162,19 @@
               Developed the full iOS app in Swift and published it to the App Store.<br>
               <span class="project-links">
                 <a href="https://github.com/LiveCompose"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://huggingface.co/datasets/LiveCompose/LiveCompose-outpainted">Hugging Face</a>
                 <a href="https://apps.apple.com/cn/app/%E6%9E%84%E5%A6%99/id6754213088"><i class="fab fa-apple"></i> App Store</a>
               </span>
+            </li>
+
+            <li>
+              <i>On-Device LLM for Personalized Copy Generation</i><br>
+              ByteDance Internship Project &bull; Model Technical Solution Owner &bull; 2026.07 – 2026.08<br>
+              <strong>Tech Stack:</strong> Python, PyTorch, Knowledge Distillation, SFT, INT4 Quantization<br>
+              <strong>Highlights:</strong>
+              Led the model technical solution for a personalized on-device LLM, designing a <strong>68M-parameter</strong> Qwen3-based architecture with GQA, RoPE, SwiGLU, RMSNorm, and tied embeddings.
+              Built teacher-data generation and quality-filtering pipelines; distillation and supervised fine-tuning improved task pass rate from <strong>69%</strong> to <strong>78.3%</strong> and reduced logical-error cases from <strong>41</strong> to <strong>15</strong>.
+              Quantized the model to approximately <strong>37 MB</strong> and collaborated on the mobile inference lifecycle, meeting a <strong>25-second</strong> end-to-end latency target for inputs up to <strong>2,500 tokens</strong>.
             </li>
 
             <li>
@@ -185,9 +197,15 @@
           <h1 id="-awards">🏆 Awards & Honors</h1>
           <ul>
             <li><strong>Outstanding Project Award</strong> — ByteDance Engineering Training Camp (AIAdStream), 2026</li>
-
-            <li><strong>National-Level Innovation & Entrepreneurship Project</strong> — LiveCompose, successfully completed with paper, 2025</li>
+            <li><strong>National Second Prize</strong> — 2nd OpenAtom Competition, Complex-Scenario Visual Analytics</li>
             <li><strong>ECNU Excellent Student Award & University Scholarship</strong> — Consecutive years 2024, 2025</li>
+          </ul>
+
+          <!-- ===== Skills ===== -->
+          <h1 id="-skills">🛠️ Skills</h1>
+          <ul>
+            <li><strong>Programming:</strong> Python, C, Go, C++, Swift, Kotlin, PyTorch, JavaScript</li>
+            <li><strong>Agent Development:</strong> Following current Agent technologies including Claude Code, DSH, and Harness</li>
           </ul>
 
           <!-- ===== Education ===== -->
@@ -195,7 +213,8 @@
           <ul>
             <li>
               <strong>East China Normal University (ECNU)</strong> — B.Eng., Data Science & Big Data Technology<br>
-              2023.09 – 2027.06 | Shanghai, China
+              2023.09 – 2027.07 | Shanghai, China<br>
+              GPA: <strong>3.53/4.0</strong> · Major GPA: <strong>3.68/4.0</strong> · Estimated recommendation ranking: <strong>15/73</strong> (Top 20%)
             </li>
           </ul>
 
